@@ -38,15 +38,17 @@ public class ForceApply : MonoBehaviour
 
         //float xForce = xInput * movespeed * Time.deltaTime;
 
-        if(Input.GetKeyDown(key))
-        {
-            if (pos.y <= 0)
-            {
-                Vector2 force = new Vector2(0, 1000);
 
-                plataformaRigidbody.AddForce(force);
-            }
-        }
+        //    \/\/\/used old input system
+        //if(Input.GetKeyDown(key))
+        //{
+        //    if (pos.y <= 0)
+        //    {
+        //        Vector2 force = new Vector2(0, 1000);
+
+        //        plataformaRigidbody.AddForce(force);
+        //    }
+        //}
 
        
     }

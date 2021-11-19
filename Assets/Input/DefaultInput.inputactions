@@ -1,0 +1,11 @@
+{
+    "name": "DefaultInput",
+    "maps": [],
+    "controlSchemes": [
+        {
+            "name": "DefaultScheme",
+            "bindingGroup": "DefaultScheme",
+            "devices": []
+        }
+    ]
+}
