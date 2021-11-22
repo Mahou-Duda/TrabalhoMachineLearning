@@ -1,0 +1,63 @@
+{
+    "name": "Plataforma",
+    "maps": [
+        {
+            "name": "Plataforma",
+            "id": "1b5dc1d7-6e13-4c80-b3e6-6609cb8e6080",
+            "actions": [
+                {
+                    "name": "MoveLeftRight",
+                    "type": "Button",
+                    "id": "091761ce-1f5e-42bb-bfec-1bbb32bb49be",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Push",
+                    "type": "Button",
+                    "id": "cee27b2c-7a44-4ab6-8f5f-ac2ec6dbff52",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "274f4ed8-b56d-4b3b-88c9-7a4a65dceb49",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveLeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8b59142e-a800-4841-bc98-b0e8145c0067",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveLeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5f48b8be-4116-486c-a0db-e25dbdd12ef0",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Push",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
