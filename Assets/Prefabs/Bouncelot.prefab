@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 7328654535442969661}
   - component: {fileID: 8571774743407303726}
   m_Layer: 0
-  m_Name: Gato
-  m_TagString: Untagged
+  m_Name: Bouncelot
+  m_TagString: Gato
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49,6 +49,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -60,6 +62,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -71,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 14515d17054040b48a0446191b47ffdf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -228,3 +231,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18ecac0d2187bee4cafc0672200bbd93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ballBody: {fileID: 2899510331542896222}

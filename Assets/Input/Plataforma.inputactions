@@ -7,9 +7,9 @@
             "actions": [
                 {
                     "name": "MoveLeftRight",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "091761ce-1f5e-42bb-bfec-1bbb32bb49be",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
                 },
@@ -25,28 +25,6 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "274f4ed8-b56d-4b3b-88c9-7a4a65dceb49",
-                    "path": "<Keyboard>/leftArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MoveLeftRight",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "8b59142e-a800-4841-bc98-b0e8145c0067",
-                    "path": "<Keyboard>/rightArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MoveLeftRight",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "5f48b8be-4116-486c-a0db-e25dbdd12ef0",
                     "path": "<Keyboard>/space",
                     "interactions": "",
@@ -55,6 +33,39 @@
                     "action": "Push",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "ArrowKeys",
+                    "id": "cf34a2c9-079e-4c3a-8330-b614e0dd319d",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveLeftRight",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "5e9f5e6c-e1b6-4220-a4c4-030137b7fed9",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveLeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "4eee5da4-b11f-448b-88fc-c7d585b7450a",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveLeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }
