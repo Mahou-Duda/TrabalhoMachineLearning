@@ -1,0 +1,38 @@
+{
+    "BasCatPlatform": {
+        "checkpoints": [
+            {
+                "steps": 499941,
+                "file_path": "results\\teste02\\BasCatPlatform\\BasCatPlatform-499941.onnx",
+                "reward": -0.44,
+                "creation_time": 1638024717.5034685,
+                "auxillary_file_paths": [
+                    "results\\teste02\\BasCatPlatform\\BasCatPlatform-499941.pt"
+                ]
+            },
+            {
+                "steps": 500069,
+                "file_path": "results\\teste02\\BasCatPlatform\\BasCatPlatform-500069.onnx",
+                "reward": -0.44,
+                "creation_time": 1638024717.821284,
+                "auxillary_file_paths": [
+                    "results\\teste02\\BasCatPlatform\\BasCatPlatform-500069.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500069,
+            "file_path": "results\\teste02\\BasCatPlatform.onnx",
+            "reward": -0.44,
+            "creation_time": 1638024717.821284,
+            "auxillary_file_paths": [
+                "results\\teste02\\BasCatPlatform\\BasCatPlatform-500069.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
