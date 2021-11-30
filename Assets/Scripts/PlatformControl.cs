@@ -68,6 +68,9 @@ public class PlatformControl : Agent
         //transform.position = startPosition;
         //ballControl.ResetBall();
         SetReward(-1f);
+        float addedReward = 1f;
+        Vector2 displacement = (ballControl.transform.position - basketTransform.position);
+        AddReward(addedReward / displacement.magnitude);
         EndEpisode();
     }
 
